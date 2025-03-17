@@ -1,0 +1,10 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.large-icon{
+    font-size: 30px;
+    color: rgb(255, 15, 15);
+    cursor: pointer;
+}

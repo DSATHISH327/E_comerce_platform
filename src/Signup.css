@@ -1,0 +1,51 @@
+.container{
+    height:550px;
+    width:100%;
+    border:2px solid;
+    border-radius: 30px;
+    display:flex;
+    margin: 10px 0px 10px 0px;
+    flex-direction: row;
+}
+.image_Section{
+    height: 450px;
+    width:40%;
+    border: 2px solid;
+    border-radius: 30px;
+    margin: 30px 20px 20px 30px;
+}
+.laptop-image{
+    height: 250px;
+    width: 290px;
+    border-radius: 20px;
+    border: 0.4px solid;
+}
+.sign_Up_section{
+    text-align: center;
+    margin: 20px 0px 20px 230px;
+}
+fieldset{
+    height: 470px;
+    width: 250px;
+    border-radius: 20px;
+}
+label{
+    margin-left: 20px;
+}
+p{
+    text-align: center;
+    justify-content: center;
+}
+.signup-btn{
+    margin-left: 40px;
+    font-size: 25px;
+    transform: scaleX(0.8);
+}
+.signup-btn:hover{
+    margin-left: 40px;
+    font-size: 15px;
+    transform: scaleX(1.1);
+}
+h2{
+    text-align: center;
+}

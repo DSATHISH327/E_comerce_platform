@@ -1,0 +1,51 @@
+.container {
+    height: 400px;
+    width: 100%;
+    border: 1px solid black; 
+    border-radius: 20px;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.image-container{
+    height: 250px;
+    width: 60%;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+}
+.laptop-image{
+    height: 700px;
+    width: 700px;
+    border-radius: 20px;
+    margin: 60px 10px 10px 100px;
+}
+.login-section{
+    height: 300px;
+    width: 30%;
+    border: 2px solid;
+    border-radius: 30px;
+    justify-content: center;
+    margin: 50px 10px 20px 40px;
+    text-align: center;
+}
+h1{
+    margin-left: 10px;
+}
+input{
+    height: 30px;
+    width: 170px;
+    border-radius: 20px;
+    border: 2px solid;
+}
+.Login-btn{
+    height: 30px;
+    width: 120px;
+   margin-left: 40px;
+   font-size: 15px;
+}
+.Login-btn:hover{
+    height: 30px;
+    width: 120px;
+   margin-left: 40px;
+   font-size: 15px;
+}
