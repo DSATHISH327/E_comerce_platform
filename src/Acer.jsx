@@ -11,7 +11,7 @@ const Acer = () => {
       <div className='Apple'>
         <div className='apple_powerbook_G4'>
             <div className='Description-section'>
-              <h1>Apple powerbook</h1>
+              <h2>Apple powerbook</h2>
               <p>Version:G4</p>
               <h3>&#8377; 45,000/-</h3>
               <button type="submit">BUY NOW</button>
@@ -23,7 +23,7 @@ const Acer = () => {
         </div>
         <div className='apple_powerbook_G4'>
             <div className='Description-section'>
-              <h1>Apple Macbook</h1>
+              <h2>Apple Macbook</h2>
               <p>Version:Macbook</p>
               <h3>&#8377; 67,590/-</h3>
               <button type="submit">BUY NOW</button>
@@ -35,7 +35,7 @@ const Acer = () => {
         </div>
         <div className='apple_powerbook_G4'>
             <div className='Description-section'>
-              <h1>Apple_macbook_air</h1>
+              <h2>Apple_macbook_air</h2>
               <p>Version:G4</p>
               <h3>&#8377; 76,000/-</h3>
               <button type="submit">BUY NOW</button>
@@ -47,7 +47,7 @@ const Acer = () => {
         </div>
         <div className='apple_powerbook_G4'>
             <div className='Description-section'>
-              <h1>Apple Macbook</h1>
+              <h2>Apple Macbook</h2>
               <p>Version:Macbook</p>
               <h3>&#8377; 67,590/-</h3>
               <button type="submit">BUY NOW</button>
@@ -59,7 +59,7 @@ const Acer = () => {
         </div>
         <div className='apple_powerbook_G4'>
             <div className='Description-section'>
-              <h1>Apple powerbook</h1>
+              <h2>Apple powerbook</h2>
               <p>Version:G4</p>
               <h3>&#8377; 45,000/-</h3>
               <button type="submit">BUY NOW</button>
@@ -71,7 +71,7 @@ const Acer = () => {
         </div>
         <div className='apple_powerbook_G4'>
             <div className='Description-section'>
-              <h1>Apple Macbook</h1>
+              <h2>Apple Macbook</h2>
               <p>Version:Macbook</p>
               <h3>&#8377; 67,590/-</h3>
               <button type="submit">BUY NOW</button>

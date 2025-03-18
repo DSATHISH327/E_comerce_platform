@@ -3,21 +3,20 @@ import { Link } from 'react-router-dom';
 import PortfolioNavbar from './Portfolio_navbar';
 import Skills from './Skills';
 import Portfolio_home from './Portfolio_home';
-
+import Educational_qualifications from './Educational_qualifications';
+import Contactus from './Contactus';
 const Portfolio = () => {
   return (
     <div>
       <PortfolioNavbar />
       <Portfolio_home /> 
       <div className='Navbar'>
-        {/* <ul>
-          <li><Link to="/Portfolio/Portfolio_home">HOME</Link></li> 
-          <li><Link to="/Portfolio/Skills">SKILLS</Link></li>
-          <li><Link to="/Portfolio/projects">PROJECTS</Link></li>
-          <li><Link to="/Portfolio/Educational_qualifications">EDUCATIONAL QUALIFICATIONS</Link></li>
-        </ul> */}
+        
       </div>
+      <Educational_qualifications></Educational_qualifications>
       <Skills />
+      <PortfolioNavbar />
+      <Contactus></Contactus>
     </div>
   );
 }

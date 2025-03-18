@@ -7,12 +7,12 @@ const Portfolio_home = () => {
     <div>
     <div className='heading-background'>
       <h1>Desaboina Satish</h1>
+      <h4>Front End Developer....</h4>
     </div>
     <div className='resume'> 
       <h3>My resume</h3>
-    <i class="fa-regular fa-file"></i>
     <i class="fa-solid fa-download"></i>
-    <a href="public\Desaboina_satish_resume_web_developer.pdf" download><h3>Desaboina Satish Resume</h3></a>
+    <a  href="public\Desaboina_satish_resume_web_developer.pdf" download><h3>Desaboina Satish Resume</h3></a>
     </div>
     </div>
   )

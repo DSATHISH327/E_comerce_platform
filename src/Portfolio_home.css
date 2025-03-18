@@ -4,29 +4,36 @@
     width: 100%;
     border-radius: 20px;
     border: 3px solid;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-size: contain;
     background-image: url("./assets/software_developer.jpg");
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 10px 0px;
 }
 h1{
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 60px;
+    font-size: 40px;
     color:white;
     padding: 140px 0px 0px 20px;
+    margin-left: 10px;
 }
 a{
     text-align: center;
 }
-.fa-file{
-    font-size: 40px;
-    margin-left: 450px;
-}
 .fa-download{
     font-size: 40px;
-    margin: 30px 0px 0px 100px;
+   margin-left: 600px;
+   animation: name 2s ease-in-out 0.5ms infinite normal;
+   position: relative;
+}
+@keyframes name {
+    from{
+        margin-top: 0px;
+    }
+    to{
+        margin-top: 10px;
+    }
 }
 .resume{
     height: 170px;
@@ -34,4 +41,16 @@ a{
     border-radius: 20px;
     border: 3px solid;
 
+}
+.resume-pdf{
+    position: fixed;
+}
+h4{
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-style: normal;
+    margin-left:150px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: antiquewhite;
 }

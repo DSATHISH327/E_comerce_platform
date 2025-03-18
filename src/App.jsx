@@ -38,7 +38,7 @@ function App() {
         <Route path="/hp" element={<Hp />} />
         <Route path="/asus" element={<Asus />} />
         <Route path="/dell" element={<Dell />} />
-        <Route path="/lenovo" element={<Lenova />} />
+        <Route path="/lenova" element={<Lenova />} />
         <Route path="/acer" element={<Acer />} />
       </Routes>
     </>
