@@ -7,7 +7,7 @@ import asus from "./assets/asus.png";
 import dell from "./assets/dell.png";
 import hp from "./assets/hp.png";
 import lenovo from "./assets/lenova.png";
-import microsoft from "./assets/microsoft.jpeg";
+import microsoft from "./assets/microsoft.png";
 
 const images = [acer, apple, asus, dell, hp, lenovo, microsoft,acer, apple, asus, dell, hp, lenovo, microsoft];
 

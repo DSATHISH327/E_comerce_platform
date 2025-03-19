@@ -5,6 +5,7 @@ import Skills from './Skills';
 import Portfolio_home from './Portfolio_home';
 import Educational_qualifications from './Educational_qualifications';
 import Contactus from './Contactus';
+import Projects from './Projects';
 const Portfolio = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const Portfolio = () => {
         
       </div>
       <Educational_qualifications></Educational_qualifications>
+      <Projects></Projects>
       <Skills />
       <PortfolioNavbar />
       <Contactus></Contactus>
