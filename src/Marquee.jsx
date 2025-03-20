@@ -2,7 +2,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import "./Marquee.css";
 import acer from "./assets/acer.png";
-import apple from "./assets/apple.jpeg";
+import apple from "./assets/apple (2).jpeg";
 import asus from "./assets/asus.png";
 import dell from "./assets/dell.png";
 import hp from "./assets/hp.png";

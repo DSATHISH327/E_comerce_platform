@@ -3,19 +3,33 @@ import Marquee from "./Marquee";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Login.css";
-import laptopImage from "./assets/hd-flip-laptop.jpeg";
 import Contactus from "./Contactus";
 const Login = () => {
   const [Name, setName] = useState("");
   const [Password, setPassword] = useState("");
   const showError = () => {
-    toast.error("❌ Please fill in both fields!",);
+    toast.error("Error! Something went wrong.", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+    });
   };
 
   const showSuccess = () => {
-    toast.success("✅ Login Successful!",);
-  };
-
+    toast.success("Success! Operation completed.", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+    });
+  }
   const handleLogin = () => {
     if (Name.trim() === "" || Password.trim() === "") {
       showError();
@@ -29,7 +43,7 @@ const Login = () => {
       <Marquee />
       <main className="container">
         <div className="image-container">
-          <img className="laptop-image" src={laptopImage} alt="Flip laptop" />
+          <img className="laptop-image" src="https://www.jktgadget.com/wp-content/uploads/2022/09/ASUS-TN3402QA-Silver-2.png" alt="Flip laptop" />
         </div>
         <div className="login-section">
         <legend><h2>Login</h2></legend>

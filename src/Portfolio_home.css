@@ -3,7 +3,7 @@
     height: 540px;
     width: 100%;
     border-radius: 20px;
-    border: 3px solid;
+    border: 0.7px solid;
     background-repeat: repeat-x;
     background-size: contain;
     background-image: url("./assets/software_developer.jpg");
@@ -36,10 +36,10 @@ a{
     }
 }
 .resume{
-    height: 170px;
+    height: 230px;
     width: 100%;
     border-radius: 20px;
-    border: 3px solid;
+    border: 0.5px solid;
 
 }
 .resume-pdf{
@@ -53,4 +53,8 @@ h4{
     margin-top: -20px;
     font-size: 20px;
     color: antiquewhite;
+}
+h5{
+    text-align: center;
+    
 }

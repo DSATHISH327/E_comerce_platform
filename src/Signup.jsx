@@ -14,11 +14,25 @@ const Signup = () => {
     const [rePassword,setrePassword]=useState("");
     const [Address,setAddress]=useState("");
       const showError = () => {
-        toast.error("❌ Please fill in both fields!",);
+        toast.error("Error! Something went wrong.", {
+    position: "top-right",
+    autoClose: 3000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+  });
       };
     
       const showSuccess = () => {
-        toast.success("✅ Login Successful!",);
+        toast.success("Success! Operation completed.", {
+          position: "top-right",
+          autoClose: 3000, 
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+        });
       };
     
       const handleLogin = () => {
@@ -33,10 +47,9 @@ const Signup = () => {
       <Marquee />
       <div className="container">
         <div className="image_Section">
-          <img className="laptop-image" src={Image} alt="Laptop Image"  />
+          <img className="laptop-image" src="https://5.imimg.com/data5/SELLER/Default/2023/5/305813111/GV/YX/EV/186092245/asus-vivobook-14-laptop.jpg" alt="Laptop Image"  />
           <h2>Welcome to Sign-up Page</h2>
-          <p>A laptop is more than just a device; it's a gateway to knowledge,
-             creativity, and endless possibilities</p>
+          <p>💻 "A laptop is not just a device; it's a gateway to knowledge, creativity, and success."</p>
         </div>
         <div className="sign_Up_section">
           <fieldset>
@@ -63,7 +76,7 @@ const Signup = () => {
             <br />
             <label htmlFor="Address">Address:</label>
             <br />
-            <input type="textarea" id="Address" value={Address} onChange={(e) => setAddress(e.target.value)} />
+            <textarea type="textarea" id="Address" value={Address} onChange={(e) => setAddress(e.target.value)} />
             <br />
             <button className="signup-btn"type="submit" onClick={handleLogin}>Sign up</button>
           </fieldset>

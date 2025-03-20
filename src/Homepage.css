@@ -1,7 +1,7 @@
 .header {
-    height: 500px; 
+    height: 400px; 
     width: 100%;
-    border: 2px solid black;
+    border: 0.7px solid black;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -11,37 +11,48 @@
 }
 
 video {
-    height: 500px; /* Fixed height */
-    width: 100%; /* Fit screen width */
+    height: 490px; 
+    width: 100%; 
     border-radius: 20px;
-    object-fit: cover; /* Prevents stretching */
+    object-fit: cover; 
 }
 .brands{
-    height: 900px;
+    height: auto;
     width: 100%;
-    border: 2px solid;
+    border: 0.7px solid;
     border-radius: 20px;
     margin: 5px 0px 10px 0px;
 }
 .Home_page_image{
-    height: 350px;
+    height: 290px;
     width: 290px;
     border-radius: 20px;
     border: 1px solid;
-    margin: 40px 40px 30px 40px;
+    margin: 50px 40px 30px 60px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 
 }
 .HP_page_image{
-    height: 350px;
-    width: 330px;
+    height: 290px;
+    width: 290px;
     border-radius: 20px;
     border: 1px solid;
-    margin: 40px 40px 30px 40px;
+    margin: 50px 40px 30px 60px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 .Hp_page_image{
-    height: 320px;
-    width: 320px;
+    height: 290px;
+    width: 290px;
     border-radius: 20px;
     border: 1px solid;
-    margin: 40px 40px 30px 40px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    margin: 40px 40px 30px 60px;
+}
+.hp_page_image{
+    height: 270px;
+    width: 270px;
+    border-radius: 20px;
+    border: 1px solid;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    margin: 40px 40px 30px 60px;
 }

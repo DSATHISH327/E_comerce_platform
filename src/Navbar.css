@@ -2,7 +2,8 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: antiquewhite;
+    background-color: rgb(245, 239, 231);
+    border: 1px solid;
 }
 li{
     list-style-type: none;

@@ -44,35 +44,44 @@ const Hp = () => {
         </div>
         <div className='apple_powerbook_G4'>
             <div className='Description-section'>
-              <h2>Apple_macbook_air</h2>
-              <p>Version:G4</p>
-              <h3>&#8377; 76,000/-</h3>
+              <h2>HP Inter Core i5</h2>
+              <p>HP Intel Core i5 12th Gen 1235U</p>
+              <p>16GB</p>
+              <p>512GB</p>
+              <p>Windows 11</p>
+              <h3>&#8377; 51,490/-</h3>
               <button type="submit">BUY NOW</button>
-              <p>EMI Available &#8377; 5456/- per month</p>
+              <p>EMI Available &#8377; 1,811/- per month</p>
             </div>
             <div className='image-section'>
-            <img src="https://m.media-amazon.com/images/I/61ybbjUQ-kL._AC_UF894,1000_QL80_.jpg" alt="HP ENVY SERIES" className='Image'  />
+            <img src="https://www.firstshop.co.za/cdn/shop/files/b19gwea-windows-laptops-1112463411.jpg?v=1738379264&width=460" alt="HP ENVY SERIES" className='Image'  />
             </div>
         </div>
         <div className='apple_powerbook_G4'>
             <div className='Description-section'>
-              <h2>Apple Macbook</h2>
-              <p>Version:Macbook</p>
-              <h3>&#8377; 67,590/-</h3>
+              <h2>HP Pavilion Intel Core i7</h2>
+              <p>HP Pavilion Intel Core i7 12th Gen 1255U</p>
+              <p>16GB</p>
+              <p>1TB</p>
+              <p>windows 11</p>
+              <h3>&#8377; 74,990/-</h3>
               <button type="submit">BUY NOW</button>
-              <p>EMI Available &#8377; 3456/- per month</p>
+              <p>EMI Available &#8377; 2637/- per month</p>
             </div>
             <div className='image-section'>
-            <img src={apple_macbook} alt="apple_powerbook_g4" className='Image'  />
+            <img src="https://m.media-amazon.com/images/I/61Je41atCbL.jpg" alt="apple_powerbook_g4" className='Image'  />
             </div>
         </div>
         <div className='apple_powerbook_G4'>
             <div className='Description-section'>
-              <h2>HP Omen Series</h2>
-              <p>Display: 16-inch 2560 x 1600 IPS display with a 240Hz refresh rate</p>
-              <h3>&#8377; 45,000/-</h3>
+              <h2>HP Pavilion Intel Core i7</h2>
+              <p>HP Pavilion Intel Core i7 12th Gen 1255U</p>
+              <p>16 GB</p>
+              <p>1 TB</p>
+              <p></p>
+              <h3>&#8377; 74,990/-</h3>
               <button type="submit">BUY NOW</button>
-              <p>EMI Available &#8377; 1456/- per month</p>
+              <p>EMI Available &#8377; 2,637/- per month</p>
             </div>
             <div className='image-section'>
             <img src="https://computechstore.in/wp-content/uploads/2023/12/HP-OMEN-Gaming-Laptop-40.9-cm16-xf0060AX-2.jpg" alt="apple_powerbook_g4" className='Image'  />
