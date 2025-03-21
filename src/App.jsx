@@ -13,7 +13,7 @@ import Apple from './Apple';
 import Acer from './Acer';
 import Lenova from './Lenova';
 import Dell from './Dell';
-import Hp from './Hp';
+import Hp from "./HP";
 import Asus from './Asus';
 
 function App() {
