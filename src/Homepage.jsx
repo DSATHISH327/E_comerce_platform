@@ -6,12 +6,16 @@ import Marquee from './Marquee';
 import Asus from './assets/ASUS-Image.jpg'
 import Contactus from "./Contactus";
 import { Link } from "react-router-dom";
+import Video from '/advertisement.mp4'
 const Homepage = () => {
   return (
     <>
       <Marquee></Marquee>
       <div className="header">
-         <video src="public\advertisement.mp4" autoPlay loop controls width="100%" height="750" />  
+      <video autoPlay loop muted playsInline className="w-full h-auto">
+      <source src={Video} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
       </div>
       <div className="brands">
         <Link to="/Apple"><img className="Home_page_image" src={Image} alt="Apple-laptop-image" title="Apple -BRAND" /></Link>

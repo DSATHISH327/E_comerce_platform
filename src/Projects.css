@@ -29,6 +29,8 @@
     gap: 30px;
     padding: 20px;
     border-radius: 20px;
+    border: 0.4px solid;
+    border-radius: 20px;
     background: linear-gradient(45deg, #fdfafa, #fad0c4);
 }
 
