@@ -8,15 +8,15 @@ const Portfolio_home = () => {
     <div>
       <div className="heading-background">
         <h1>Desaboina Satish</h1>
-        <h4>Front End Developer....</h4>
+        <p className="role">Front End Developer....</p>
       </div>     
       <div className="resume">
-        <h3>My Resume</h3>
+        <h3>Resume</h3>
         <h5>
-          <FontAwesomeIcon icon={faArrowDown} size="6x"/>
+          <FontAwesomeIcon icon={faArrowDown} size="4x"/>
         </h5>
         <a href="/Desaboina_satish_resume_web_developer.pdf" download title="Desaboina Satish Web Developer Resume">
-          <h3>Desaboina Satish Resume</h3>
+          <h3>Desaboina Satish Resume Click Here............</h3>
         </a>
       </div>
     </div>

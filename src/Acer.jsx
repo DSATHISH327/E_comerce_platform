@@ -1,13 +1,11 @@
 import React from 'react'
-import apple_powerbook_g4 from './assets/apple powerbook g4.jpg'
-import apple_macbook from './assets/Apple macbook.jpg'
-import Apple_macbook_air from './assets/Apple macbook air.jpeg'
 import Acer_swift from './assets/Acer swift.jpg'
 import Acer_Aspire_3 from './assets/Acer Aspire 3.jpg'
 import Acer_nitro from './assets/Acer nitro.jpg'
 import Acer_swift_0 from './assets/Acer Swift -1.jpg'
 import Acer_predator from './assets/Acer predator.jpg'
 import Acer_ryzen from './assets/Acer Ryzen.jpg'
+import Contactus from './Contactus'
 import Marquee from './Marquee'
 import './Apple.css'
 const Acer = () => {
@@ -115,7 +113,7 @@ const Acer = () => {
         </div>
       </div>
       <Marquee></Marquee>
-      
+      <Contactus></Contactus>
     </div>
   )
 }

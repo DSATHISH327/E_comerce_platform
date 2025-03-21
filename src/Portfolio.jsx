@@ -15,8 +15,8 @@ const Portfolio = () => {
         
       </div>
       <Educational_qualifications></Educational_qualifications>
-      <Projects></Projects>
       <Skills />
+      <Projects></Projects>
       <PortfolioNavbar />
       <Contactus></Contactus>
     </div>

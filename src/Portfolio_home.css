@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
 .heading-background{
-    height: 540px;
+    height: 580px;
     width: 100%;
     border-radius: 20px;
     border: 0.7px solid;
     background-repeat: repeat-x;
     background-size: contain;
     background-image: url("./assets/software_developer.jpg");
-    margin: 10px 0px 10px 0px;
+    margin: 3px 0px 10px 0px;
 }
 h1{
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 45px;
     color:white;
     padding: 140px 0px 0px 20px;
     margin-left: 10px;
@@ -24,19 +25,11 @@ a{
 .fa-download{
     font-size: 40px;
    margin-left: 600px;
-   animation: name 2s ease-in-out 0.5ms infinite normal;
    position: relative;
 }
-@keyframes name {
-    from{
-        margin-top: 0px;
-    }
-    to{
-        margin-top: 10px;
-    }
-}
+
 .resume{
-    height: 230px;
+    height: 260px;
     width: 100%;
     border-radius: 20px;
     border: 0.5px solid;
@@ -45,16 +38,24 @@ a{
 .resume-pdf{
     position: fixed;
 }
-h4{
+h3{
     font-family: "Great Vibes", cursive;
     font-weight: 500;
     font-style: normal;
-    margin-left:150px;
-    margin-top: -20px;
-    font-size: 20px;
-    color: antiquewhite;
+   
+    font-size: 30px;
+    color: rgb(29, 28, 26);
 }
 h5{
     text-align: center;
     
+}
+.role{
+    font-family: "Allison", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: antiquewhite;
+    margin: -25px 0px 0px -680px;
+    font-size: 30px;
+    font-variant:inherit;
 }

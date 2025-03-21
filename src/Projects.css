@@ -1,27 +1,72 @@
-.projects{
-    height: 600px;
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
+
+.projects-container {
+    text-align: center;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+.projects-title {
+    font-size: 35px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.arrow-icon {
+    color: #0d0c0c;
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
     border-radius: 20px;
-    background-color: azure;
+    background: linear-gradient(45deg, #fdfafa, #fad0c4);
 }
-.project1{
-    height: 230px;
-    width: 40%;
+
+.project-card {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
     text-align: center;
-    border-radius: 70px 0px 70px 0px;
-    margin: 40px 0px 10px 100px;
-    border: 0.7px solid;
-    
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-.project2{
-    height: 170px;
-    width: 40%;
-    text-align: center;
-    border-radius: 70px 0px 70px 0px;
-    margin: 40px 0px 0px 600px;
-    border: 0.7px solid;
-   
+
+.project1 {
+    border-left: 5px solid #ff4081;
+    margin-top: 10px;
 }
-p{
-    font-size: 16px;
+
+.project2 {
+    border-left: 5px solid #4caf50;
+}
+
+.project-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.github-link {
+    font-size: 18px;
+    color: #1565c0;
+    margin-bottom: 5px;
+}
+
+.Project_Description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.5;
 }
