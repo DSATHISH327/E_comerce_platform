@@ -7,6 +7,7 @@ import Asus from './assets/ASUS-Image.jpg'
 import Contactus from "./Contactus";
 import { Link } from "react-router-dom";
 import Video from '/advertisement.mp4'
+import App from './Welcome'
 const Homepage = () => {
   return (
     <>
@@ -27,6 +28,7 @@ const Homepage = () => {
       </div>
       <div>
       </div>
+      <App></App>
       <Marquee></Marquee>
       <Contactus></Contactus>
     </>
