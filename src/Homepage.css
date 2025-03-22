@@ -56,3 +56,22 @@ video {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     margin: 40px 40px 30px 60px;
 }
+@media (min-width: 576px) and (max-width: 767px) {
+    .hp_page_image{
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        border: 1px solid;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        margin: 40px 40px 30px 60px;
+    }
+    .Hp_page_image{
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        border: 1px solid;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        margin: 40px 40px 30px 60px;
+    }
+}
+
