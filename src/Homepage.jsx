@@ -28,7 +28,7 @@ const Homepage = () => {
       </div>
       <div>
       </div>
-      <App></App>
+      <App />
       <Marquee></Marquee>
       <Contactus></Contactus>
     </>
