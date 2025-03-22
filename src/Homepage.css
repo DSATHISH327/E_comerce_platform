@@ -63,7 +63,7 @@ video {
         border-radius: 20px;
         border: 1px solid;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-        margin: 40px 40px 30px 60px;
+        margin: 20px 20px 20px 20px;
     }
     .Hp_page_image{
         height: 200px;
@@ -71,7 +71,24 @@ video {
         border-radius: 20px;
         border: 1px solid;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-        margin: 40px 40px 30px 60px;
+        margin: 20px 20px 20px 20px;
+    }
+    .Home_page_image{
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        border: 1px solid;
+        margin: 20px 20px 20px 20px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    
+    }
+    .HP_page_image{
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        border: 1px solid;
+        margin: 20px 20px 20px 20px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     }
 }
 
