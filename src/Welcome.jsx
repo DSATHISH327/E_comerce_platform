@@ -5,14 +5,17 @@ import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   useEffect(() => {
     // Show toast when the site loads
-    toast.success("Welcome to my website! Today is My Birthday", {
+    toast.success("🎉 Welcome to my website!", {  
       position: "top-center",  
-      autoClose: 5000,         
+      autoClose: 1000,  
       hideProgressBar: false,  
-      closeOnClick: true,      
-      draggable: true,
-      theme: "light",
+      icon:"🎉" ,
+      closeOnClick: true,  
+      draggable: true,  
+      theme: "colored"
     });
+    
+
   }, []); 
 
   return (
