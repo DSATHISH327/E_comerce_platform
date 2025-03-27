@@ -15,6 +15,13 @@ import Lenova from './Lenova';
 import Dell from './Dell';
 import Hp from "./HP";
 import Asus from './Asus';
+import ReactGA from "react-ga4";  // Import Google Analytics
+
+const MEASUREMENT_ID = "G-17H232CPRP"; // Replace with your GA4 Measurement ID
+
+// Initialize Google Analytics
+ReactGA.initialize(MEASUREMENT_ID);
+ReactGA.send("pageview"); // Track page views
 
 function App() {
   return (
